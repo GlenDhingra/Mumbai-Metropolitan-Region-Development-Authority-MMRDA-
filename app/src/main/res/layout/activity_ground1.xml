@@ -1,0 +1,264 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_ground1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    tools:context=".ground1">
+
+    <com.smarteist.autoimageslider.SliderLayout
+        android:id="@+id/imageSlider1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:padding="20dp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/imageSlider1"
+        android:padding="10dp">
+
+        <TableLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@color/colorWhiteT">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Owner"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Establishment"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Area"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Timings"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Condition"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Used for"
+                    android:textStyle="bold" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/colorWhiteT">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="MMRDA"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="2010"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="4355 sqm"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="10 AM to 10PM"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Non Grass"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent"
+                    android:padding="15dp"
+                    android:text="Weddings / Concerts"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_available"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/bg_calendar"
+        android:text="  Check Availability  "
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>
+
+

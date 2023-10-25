@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_main"
+    android:background="@drawable/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+
+
+        <LinearLayout
+            android:id="@+id/linear_home"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="-30dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="215dp"
+                 android:orientation="vertical"
+                 android:id="@+id/linear_image"
+                 android:background="@drawable/screen">
+
+                 <com.smarteist.autoimageslider.SliderLayout
+                     android:id="@+id/imageSlider"
+                     android:layout_width="match_parent"
+                     android:layout_marginTop="30dp"
+                     android:layout_height="210dp"
+                     android:padding="20dp" />
+
+
+
+
+             </LinearLayout>/*code for image slider*/
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/linear_image"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ground 1"
+        android:layout_above="@+id/button_ground3"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/g1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ground 2"
+        android:layout_toRightOf="@id/g1"
+        android:id="@+id/g2"
+        android:layout_above="@+id/button_ground3"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ground 3"
+        android:id="@+id/g3"
+        android:layout_below="@+id/g1"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ground 4"
+        android:layout_below="@+id/g2"
+        android:layout_toRightOf="@+id/g3"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+                 <ImageButton
+                     android:layout_marginTop="20dp"
+                     android:layout_width="170dp"
+
+
+                     android:layout_height="150dp"
+                     android:background="@drawable/home_button_bg"
+                        android:src="@drawable/ic_tab_black_24dp"
+                     android:id="@+id/button_ground1"
+                     />
+
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_button_bg"
+        android:layout_toRightOf="@+id/button_ground1"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/button_ground2"
+        android:src="@drawable/ic_tab_black_24dp"
+        />
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_below="@+id/button_ground1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_button_bg"
+        android:id="@+id/button_ground3"
+        android:src="@drawable/ic_tab_black_24dp"
+        android:layout_marginTop="20dp"
+
+
+
+        />
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/button_ground3"
+        android:layout_below="@+id/button_ground2"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/button_ground4"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_button_bg"
+        android:src="@drawable/ic_tab_black_24dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/g3"
+        android:text="E-mail"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/e"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/g3"
+        android:layout_toRightOf="@+id/e"
+        android:text="Website"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/web"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="120dp"
+        />
+
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/button_ground3"
+        android:layout_below="@+id/button_ground4"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/website"
+        android:layout_height="150dp"
+        android:background="@drawable/home_button_bg"
+        android:src="@drawable/ic_web"
+
+        />
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@id/website"
+        android:layout_below="@+id/button_ground4"
+
+        android:id="@+id/email"
+        android:layout_height="150dp"
+        android:background="@drawable/home_button_bg"
+        android:src="@drawable/ic_email_black_24dp"
+
+        />
+
+
+
+
+</RelativeLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
