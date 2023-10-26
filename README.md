@@ -48,7 +48,7 @@ The Ground Booking Android application I developed offers the following key feat
 
 ## Database Snapshots
 
-<img src="Images/Image1.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
+<img src="Images/Image1.jpeg" alt="Images/Image8.jpeg" width="800" height="600">
 
 
 
