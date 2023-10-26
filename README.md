@@ -32,23 +32,26 @@ The Ground Booking Android application I developed offers the following key feat
 
 ## Implementation
 
-![Implementation Snapshot](Images/Image9.jpeg)
+<img src="Images/Image9.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
-![Implementation Snapshot](Images/Image7.jpeg)
+<img src="Images/Image7.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
-![Implementation Snapshot](Images/Image4.jpeg)
+<img src="Images/Image4.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
-![Implementation Snapshot](Images/Image5.jpeg)
+<img src="Images/Image5.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
-![Implementation Snapshot](Images/Image6.jpeg)
+<img src="Images/Image6.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
-![Implementation Snapshot](Images/Image3.jpeg)
+<img src="Images/Image3.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
-![Implementation Snapshot](Images/Image2.jpeg)
+<img src="Images/Image2.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
 ## Database Snapshots
 
-![Database Snapshot 1](Images/Image1.jpeg)
+<img src="Images/Image1.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
+
+
+
 
 ## Getting Started
 
