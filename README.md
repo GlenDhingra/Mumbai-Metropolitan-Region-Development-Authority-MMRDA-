@@ -2,7 +2,7 @@
 
 ## Software Engineering Internship at Orient Technologies Pvt. Ltd
 
-![Project Image](Images/Image1.jpeg)
+![Project Image](Images/Image8.jpeg)
 
 **Internship Duration:** May 2019 – June 2019
 
@@ -32,13 +32,23 @@ The Ground Booking Android application I developed offers the following key feat
 
 ## Implementation
 
-![Implementation Snapshot](/images/implementation_snapshot.png)
+![Implementation Snapshot](Images/Image9.jpeg)
+
+![Implementation Snapshot](Images/Image7.jpeg)
+
+![Implementation Snapshot](Images/Image4.jpeg)
+
+![Implementation Snapshot](Images/Image5.jpeg)
+
+![Implementation Snapshot](Images/Image6.jpeg)
+
+![Implementation Snapshot](Images/Image3.jpeg)
+
+![Implementation Snapshot](Images/Image2.jpeg)
 
 ## Database Snapshots
 
-![Database Snapshot 1](/images/database_snapshot1.png)
-
-![Database Snapshot 2](/images/database_snapshot2.png)
+![Database Snapshot 1](Images/Image1.jpeg)
 
 ## Getting Started
 
