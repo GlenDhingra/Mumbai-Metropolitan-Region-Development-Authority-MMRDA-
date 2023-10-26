@@ -2,7 +2,7 @@
 
 ## Software Engineering Internship at Orient Technologies Pvt. Ltd
 
-![Project Image](/images/project_image.png)
+![Project Image](Images/Image1.jpeg)
 
 **Internship Duration:** May 2019 – June 2019
 
