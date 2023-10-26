@@ -46,20 +46,10 @@ The Ground Booking Android application I developed offers the following key feat
 
 <img src="Images/Image2.jpeg" alt="Images/Image8.jpeg" width="400" height="600">
 
-## Database Snapshots
-
-<img src="Images/Image1.jpeg" alt="Images/Image8.jpeg" width="800" height="800">
-
-
-
-
-## Getting Started
-
-Here you can provide instructions for users to get started with the Ground Booking Android application. Include any installation steps, usage guidelines, or important notes for users.
 
 ## Contributing
 
-We welcome contributions to improve and expand the Ground Booking Android application project. If you'd like to add features, fix bugs, or enhance the user interface, follow these steps:
+I welcome contributions to improve and expand the Ground Booking Android application project. If you'd like to add features, fix bugs, or enhance the user interface, follow these steps:
 
 1. **Fork the Repository:** Create your own copy of the project by forking it.
 
@@ -69,13 +59,8 @@ We welcome contributions to improve and expand the Ground Booking Android applic
 
 ## Contact
 
-If you have any questions, suggestions, or would like to collaborate on this project, please feel free to reach out to us:
+If you have any questions, suggestions, or would like to collaborate on this project, please feel free to reach out to me:
 
-- Email: projectteam@example.com
-- Issue Tracker: [GitHub Issues](https://github.com/your-username/project-repo/issues)
+- Email: glendhingra27@gmail.com
 
-We aim to provide a convenient solution for ground booking and appreciate your support and contributions.
-
----
-
-*This project is open-source and available under the [MIT License](LICENSE.md).*
+I aim to provide a convenient solution for ground booking and appreciate your support and contributions.
